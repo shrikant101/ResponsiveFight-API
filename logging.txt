@@ -1,0 +1,114 @@
+Request method:	GET
+Request URI:	https://supervillain.herokuapp.com/auth/verifytoken
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJzaHJpIiwiZW1haWwiOiJzaHJpa2FudDEwMUBnbWFpbC5jb20iLCJpYXQiOjE2MzMyOTM5MjQsImV4cCI6MTYzMzU1MzEyNH0.5ssxHAdVhuelcIt5gxO4TgruH83KiwSr_W3liVgR_aE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 29
+Etag: W/"1d-uAM+EqQRhqVl9Ccx6tuABaJbRbQ"
+Date: Tue, 05 Oct 2021 05:50:34 GMT
+Via: 1.1 vegur
+
+[
+    {
+        "app_id": 263,
+        "app": "shri"
+    }
+]
+Request method:	POST
+Request URI:	https://supervillain.herokuapp.com/v1/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJzaHJpIiwiZW1haWwiOiJzaHJpa2FudDEwMUBnbWFpbC5jb20iLCJpYXQiOjE2MzMyOTM5MjQsImV4cCI6MTYzMzU1MzEyNH0.5ssxHAdVhuelcIt5gxO4TgruH83KiwSr_W3liVgR_aE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "free5",
+    "score": 10
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 44
+Etag: W/"2c-Ne7/VH8/Qgve0R5CLf3Mr+gUUVI"
+Date: Tue, 05 Oct 2021 05:50:37 GMT
+Via: 1.1 vegur
+
+{
+    "status": "success",
+    "message": "User added."
+}
+Request method:	PUT
+Request URI:	https://supervillain.herokuapp.com/v1/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJzaHJpIiwiZW1haWwiOiJzaHJpa2FudDEwMUBnbWFpbC5jb20iLCJpYXQiOjE2MzMyOTM5MjQsImV4cCI6MTYzMzU1MzEyNH0.5ssxHAdVhuelcIt5gxO4TgruH83KiwSr_W3liVgR_aE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "free5",
+    "score": 12
+}
+HTTP/1.1 204 No Content
+Server: Cowboy
+Content-Length: 0
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Date: Tue, 05 Oct 2021 05:50:38 GMT
+Via: 1.1 vegur
+Request method:	DELETE
+Request URI:	https://supervillain.herokuapp.com/v1/user?delete-key=free5
+Proxy:			<none>
+Request params:	<none>
+Query params:	delete-key=free5
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJzaHJpIiwiZW1haWwiOiJzaHJpa2FudDEwMUBnbWFpbC5jb20iLCJpYXQiOjE2MzMyOTM5MjQsImV4cCI6MTYzMzU1MzEyNH0.5ssxHAdVhuelcIt5gxO4TgruH83KiwSr_W3liVgR_aE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 401 Unauthorized
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 38
+Etag: W/"26-F6aatHwPHnMIVwde4YHdcBEhRfA"
+Date: Tue, 05 Oct 2021 05:50:40 GMT
+Via: 1.1 vegur
+
+{
+    "error": "unable to authenticate key"
+}
