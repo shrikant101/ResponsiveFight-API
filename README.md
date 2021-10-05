@@ -2,5 +2,7 @@
 repo for codility test
 
 
-Open a command window and run:
+
+
+To Execute open a command window and run:
 mvn test
