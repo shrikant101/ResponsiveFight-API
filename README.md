@@ -1,4 +1,4 @@
-# cba-test
+# test
 repo for codility test
 
 
